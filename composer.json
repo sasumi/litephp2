@@ -27,8 +27,11 @@
 	},
 	"require-dev": {},
 	"autoload": {
+		"psr-4": {
+			"Lite\\": "src/"
+		},
 		"files": [
-			"bootstrap.php",
+			"src/init.php",
 			"src/function/util.php",
 			"src/function/string.php"
 		]
